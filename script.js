@@ -75,7 +75,7 @@ diceHold.addEventListener('click', function () {
       scores[activePlayer];
 
     //2. Check if score is greater than 100
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       playing = false;
       diceImage.classList.add('hidden');
       document
